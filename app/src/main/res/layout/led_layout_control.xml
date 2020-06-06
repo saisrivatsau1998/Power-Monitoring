@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ledControl">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_light"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="50dp"
+                android:textStyle="italic"
+                android:text="Automate Your HALL"
+                android:textAlignment="center"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="38dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="HALL BULB">
+            </TextView>
+            <Button
+                android:id="@+id/button2"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:text="BULB 1 ON" />
+
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:text="BULB 1 OFF"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="38dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="HALL FAN"></TextView>
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:text="FAN ON" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:text="FAN OFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="TUBE LIGHT"></TextView>
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:text="LIGHT ON" />
+
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:text="LIGHT OFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="38dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="HALL  T V"></TextView>
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:text="T V ON" />
+
+
+            <Button
+                android:id="@+id/button10"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:text="T V OFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_red_light"
+                android:text="Disconnect Pairing"
+                tools:layout_editor_absoluteX="108dp"
+                tools:layout_editor_absoluteY="154dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
