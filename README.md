@@ -1,11 +1,9 @@
 # Power-Monitoring
 Implementation Steps
-1. User has to follow the circuit diagram as mentioned in the Figure 4.3 for
-establishing communication between external devices and user application.
-2. Develop an C program to communicate with External electrical devices us-
+1. Develop an C program to communicate with External electrical devices us-
 ing Arduino IDE.
-3. Develop an application that can interact with Arduino using android studio.
-4. Connect to backend MongoDB Atlas database for storing of each informa-
+2. Develop an application that can interact with Arduino using android studio.
+3. Connect to backend MongoDB Atlas database for storing of each informa-
 tion.
 
 Steps to connect App to MongoDB atlas.
